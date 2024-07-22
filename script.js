@@ -6,7 +6,7 @@ function insert_Row() {
 	let newTr = document.createElement("tr");
 	for(let i=1;i<=cell;i++){
 		let newTd = document.createElement("td");
-		newTd.textContent = `New cell${i}`;
+		newTd.textContent = `New Cell${i}`;
 		newTr.appendChild(newTd);
 	}
 	row++;
